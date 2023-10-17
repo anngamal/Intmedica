@@ -1,0 +1,30 @@
+.categories-container {
+  display: flex;
+}
+
+.categories-list {
+  list-style: none;
+  padding: 0;
+  margin: 90;
+  width: 200px; /* Adjust the width as needed */
+  background-color: #f2eeee25; /* Set a background color */
+}
+
+.categories-list li {
+  margin: 0;
+  padding: 0;
+}
+
+.categoriesLinks {
+  display: block;
+  text-decoration: none;
+  color: #7d6060;
+  padding: 40px;
+  border-bottom: 1px solid #555; /* Add a horizontal line between categories */
+}
+
+.categoriesLinks:hover {
+  background-color: #555; /* Change background color on hover */
+  transition: background-color 0.3s ease;
+}
+
