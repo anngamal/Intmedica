@@ -1,0 +1,28 @@
+.addToCartBtn{
+background-color: #7d6060ee;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.productImage{
+    width:300px;
+    height:200px; 
+}
+#productCardImg{
+  width:300px;
+  height: 200px;
+}
+.product-list {
+  display: flex;
+  justify-content: flex-start
+}
+
+.product-card {
+  border: 1px solid #dddddd; 
+  padding: 10px;
+}

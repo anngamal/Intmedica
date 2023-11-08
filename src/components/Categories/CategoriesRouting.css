@@ -24,7 +24,7 @@
 }
 
 .categoriesLinks:hover {
-  background-color: #555; /* Change background color on hover */
+  background-color: #d6cece; /* Change background color on hover */
   transition: background-color 0.3s ease;
 }
 

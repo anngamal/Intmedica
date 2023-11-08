@@ -1,0 +1,68 @@
+
+.contactusdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid #0000008f; /* Add a black border around the entire box */
+    background-color: #f0f0f0; /* Add a light gray background color */
+  }
+  
+  .contactusImg {
+    max-width: 100%;
+    height:600px
+  }
+  
+  #h2Contactus{
+    color:#220202bb;
+  }
+  #contactUsForm {
+    background-color: #fff; /* White background for the form container */
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid  #7d6060f1; 
+    width:600px;
+    height:500px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+
+  }
+  
+
+   #nameContact , #emailContact {
+    display: block;
+    padding: 10px 10px; 
+    margin: 10 auto;
+    width:200px;
+    border: none;
+    border-bottom: 2px solid #7d6060b5;
+    border-radius: 4px;
+    
+  }
+  #msgContact{
+    display: block;
+    padding: 20px 10px; 
+    margin: 10 auto;
+    width:200px;
+    border: none;
+    border-bottom: 2px solid  #7d6060b5;
+    border-radius: 4px;
+  }
+  
+  #ContactUsBtn{
+    background-color: #7d6060b5; 
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  #ContactUsBtn:hover {
+    background-color: #bab3b3; 
+  }
+  

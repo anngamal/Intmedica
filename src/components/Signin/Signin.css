@@ -1,0 +1,85 @@
+#formInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.182);
+    width:500px;
+    padding:5px;
+    height: 600px;
+}  
+#SignupformInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color:rgba(255, 236, 236, 0.336);
+    width:500px;
+    padding:5px;
+    height: 600px;
+}  
+#passwordSignin , #usernameSignin {
+    display: block;
+    padding: 8px 1px; 
+    margin: 4px 0;
+    width:300px;
+    border: none;
+    border-bottom: 2px solid #7d6060b5;
+  }
+.inputSignupInfo{
+    width: 70%;
+    padding: 12px 5px;
+    margin: 7px 0;
+    box-sizing: border-box;
+    border: 2px solid  #7d6060b5;
+    border-radius: 4px;
+}
+  .signinSection{
+    background-image: url("./signinbackground.jpg");
+    padding: 0 100px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+  #signinh1, #signupP {
+    color:white;
+  }
+  #signInBtn, #signUpBtn{
+    background-color: #7d6060b5; 
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  #signInBtn:hover, #signUpBtn:hover {
+    background-color: #bab3b3; 
+  }
+  
+  #signupLink{
+    color:#7d6060;
+    text-decoration: none;
+  }
+  #signUph1{
+    color:#443535
+  }
+  .signupSection{
+    background-image: url("./signinbackground.jpg");
+    padding: 0 100px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }

@@ -1,0 +1,24 @@
+/* .sliderImgs{
+    width: 100vw;
+    height: auto;
+} */
+.sliderImgs {
+    width: 1300px;
+    height: 600px;
+    /* display:flex; */
+    margin: auto;
+}
+
+
+
+
+#slider-wrapper {
+    background-image: url("./cover.jpg");
+    min-height: 300px; 
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+  }
+  

@@ -1,0 +1,23 @@
+.Home3picsDiv{
+display:flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: center;
+padding: 10px;
+}
+.Home3PicContainer{
+display: flex;
+}
+.Home3PicsImg {
+display:flex
+}
+#yogapicImg{
+    width:480px;
+    height:570px
+}
+
+
+/* .Home3Picsh4{
+
+} */

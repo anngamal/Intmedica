@@ -1,0 +1,40 @@
+#footer{
+    background-color:  #7d6060b5;
+    padding: 10px;
+  
+  }
+  
+  table {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    text-align:left;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    padding:10px;
+  }
+  
+  th {
+    font-size: 1.5em;
+  }
+  /* #footerContent td{
+    padding: 0px; /* Add padding to create space between table cells */
+  
+   */
+  #p1,#p2,#p3,#p4{
+    color:rgb(16, 15, 15)
+  }
+  
+  
+  #footerTitles{
+    color:rgb(237, 237, 237);
+  }
+  
+  #footerContent{
+    font-size: large;
+    justify-content: center;
+    
+  }
+  .h4Link{
+    color:rgb(17, 17, 17);
+  }

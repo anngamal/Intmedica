@@ -15,18 +15,25 @@ import Navbar from './components/Navbar/Navbar';
 import Cart from './components/Cart/Cart';
 import HomePage from './components/HomePage/HomePage';
 import { BrowserRouter } from 'react-router-dom'; 
+import ProductList from './components/ProductInfo/ProductList';
+import ProductDetails from './components/ProductDetails/ProductDetails';
+import Footer from './components/Footer/Footer';
+import SignUp from './components/Signin/Signup';
+import SearchByCatImgs from './components/SearchByCategory/SearchByCatImgs';
+import SearchByCatList from './components/SearchByCategory/SearchByCatList';
+import SearchByCatCard from './components/SearchByCategory/SearchByCatCard';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage />
+    element: <App />
     // errorElement: <ErrorPage />
   },
   {
     path: "/shop",
     element: <Shop />,
-    // loader: cupsDataLoader,
+    // loader: <RandomProduct />,
   },
   {
     path: "/yourcart",
@@ -35,23 +42,42 @@ const router = createBrowserRouter([
   },
   {
     path: "/signin",
-    element: <Signin />,
+    element:<><Navbar /><Signin /> <Footer /></> ,
     // loader: singleTrackDataLoader
   },
   {
+    path:"/signup",
+    element:<><Navbar /><SignUp /> <Footer /></> ,
+  },
+  {
     path: "/contactus",
-    element: <Contactus />,
+    element: <><Navbar /><Contactus /><Footer /></> ,
     // loader: singleTrackDataLoader
+  },
+  {
+    path:"/gymmachines",
+    element:<><Navbar /><ProductList /> <Footer /></>,
+  },
+  {
+    path:"/product/:id",
+    element:<><Navbar /><ProductDetails /></>,
+  },
+  {
+    path:"/searchbycategory",
+    element:<><Navbar /><SearchByCatImgs /></>,
+  },
+  {
+    path:"/category/:category",
+    element:<><Navbar /> <SearchByCatList/>  </>
   }
+
 ]);
 
 const root = document.getElementById('root');
 
 ReactDOM.createRoot(root).render(
   <React.StrictMode>
-    <BrowserRouter> {/* Wrap your app with BrowserRouter */}
-      <App />
-    </BrowserRouter>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
